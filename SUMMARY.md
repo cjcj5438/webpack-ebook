@@ -10,4 +10,6 @@
   * [处理 CSS - style-loader](ji-chu/chu-li-css-styleloader.md)
   * [Tree-shaking](ji-chu/tree-shaking.md)
   * [图片处理](ji-chu/tu-pian-chu-li.md)
+  * [字体处理](ji-chu/zi-ti-chu-li.md)
+  * [第三方js库](ji-chu/di-san-fang-js-ku.md)
 
