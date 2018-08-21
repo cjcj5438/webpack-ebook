@@ -107,6 +107,10 @@ module.exports=function(css){
 
 ## css-loader
 
+{% hint style="success" %}
+ css-loader主要的是让js怎么import一个css样式文件进来
+{% endhint %}
+
 ### options
 
 1. [ ] alias 解析别名 
@@ -157,5 +161,128 @@ var app=docoment.getElementById('xxx')
 app.innerHTML=`<div class=${base.box}></div>`
 ```
 
- css-loader主要的是让js怎么import一个css样式文件进来
+## Less sass
+
+```text
+npm i less less-loader sass-loader node-sass -D
+```
+
+```text
+modules:{ 
+       rules:[
+           {
+               test:/\.less$/,
+               use:[
+               //顺序是有必要的, 越后面越先加载
+                   {loader:'style-loader'},
+                   {loader:'css-loader'},
+                   {loader:'less-loader'}
+               ]
+           },
+           
+       ]
+   }
+```
+
+## 提取CSS
+
+```text
+npm i extract-text-webpack-plugin webpack -D
+```
+
+```text
+modules:{ 
+       rules:[
+           {
+               test:/\.less$/,
+               use:ExtractTextWebpackPlugin.extract({
+               /*
+               fallback当页面不提取的是用什么loader加载到页面中
+               use 继续处理的loader
+               要配其他option 可以添加 
+               */
+                   fallback:{loader:'style-loader'},
+                   use:[
+                       {loader:'css-loader'},
+                       {loader:'less-loader'}
+                   ]
+               })
+           },
+           
+       ]
+   }
+plugins:[
+    new ExtractTextWebpackPlugin({
+        //提取出来的css文件名
+        //提取出来文件不能自动插入html中.后面会补充解决方法,
+        filename:'[name].min.css',
+        //指定css提取的范围,默认是false,只提取初始化的,不会提取异步的
+        allChunk:false
+    })
+]
+```
+
+## PostCss
+
+```text
+npm i                 -D
+        postcss
+        postcss-loader 
+        autoprefixer        帮助添加浏览器前缀
+        postcss-cssnano     帮助css压缩,css-loader就是用这个的
+        postcss-cssnext     使用css新语法,让浏览器识别
+```
+
+```text
+modules:{ 
+       rules:[
+           {
+               test:/\.less$/,
+               use:ExtractTextWebpackPlugin.extract({
+                   fallback:{loader:'style-loader'},
+                   use:[
+                       {loader:'css-loader'},
+                       {
+                           loader:'postcss-loader',
+                           options:[
+                               ident:'postcss',
+                               plugins:[
+                                   //require('autoprefixer')()
+                                   require('postcss-cssnext')()
+                               ]
+                           ]
+                       }
+                       {loader:'less-loader'}
+                   ]
+               })
+           },
+           
+       ]
+   },
+plugins:[
+    new ExtractTextWebpackPlugin({
+        filename:'[name].min.css',
+        allChunk:false
+    })
+]
+```
+
+### 优化: Browerslist
+
+{% hint style="success" %}
+所有插件都公用
+
+* package.json
+* .browerslist
+{% endhint %}
+
+### 其他插件
+
+postcss-import
+
+post-url
+
+postcss-assets
+
+
 
