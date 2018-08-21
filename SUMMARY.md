@@ -9,4 +9,5 @@
   * [代码分割和懒加载](ji-chu/dai-ma-fen-ge-he-lan-jia-zai.md)
   * [处理 CSS - style-loader](ji-chu/chu-li-css-styleloader.md)
   * [Tree-shaking](ji-chu/tree-shaking.md)
+  * [图片处理](ji-chu/tu-pian-chu-li.md)
 

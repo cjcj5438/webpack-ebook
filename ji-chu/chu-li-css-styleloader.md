@@ -248,6 +248,11 @@ modules:{
                                ident:'postcss',
                                plugins:[
                                    //require('autoprefixer')()
+                                   require('postcss-sprites')({
+                                       spritePath:'dist/assets/imgs/sprites',
+                                       //处理苹果设备上的高清图 
+                                       retina:true
+                                   }),
                                    require('postcss-cssnext')()
                                ]
                            ]
@@ -266,6 +271,8 @@ plugins:[
     })
 ]
 ```
+
+>
 
 ### 优化: Browerslist
 
