@@ -47,6 +47,7 @@ module.exports={
                            limit:5000,
                            publicPath:"",
                            outputPath:'dist/',
+                           //使用相对路径
                            useRelativePath:true
                        }
                    },

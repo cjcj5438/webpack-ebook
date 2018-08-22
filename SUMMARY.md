@@ -12,4 +12,5 @@
   * [图片处理](ji-chu/tu-pian-chu-li.md)
   * [字体处理](ji-chu/zi-ti-chu-li.md)
   * [第三方js库](ji-chu/di-san-fang-js-ku.md)
+  * [html in webpack](ji-chu/html-in-webpack.md)
 
