@@ -70,10 +70,6 @@ plugins:[
    ]
 ```
 {% endtab %}
-
-{% tab title="" %}
-
-{% endtab %}
 {% endtabs %}
 
 ## 
