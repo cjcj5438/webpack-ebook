@@ -81,8 +81,8 @@ rules:[
                //顺序是有必要的, 越后面越先加载
                    {loader:'style-loader',
                        options:{
-                           insertInto:"#div",
-                           singleton:true,
+                           insertInto: '#app', // 可以指定加在哪个标签下
+                            singleton: true, // 使用一个style标签
                            transform:'./css.transform.css'
                        }
                    },

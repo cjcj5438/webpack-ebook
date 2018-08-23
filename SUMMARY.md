@@ -17,4 +17,6 @@
   * [webpack Watch Mode](kai-fa-huan-jing/webpack-watch-mode.md)
   * [webpack-dev-server](kai-fa-huan-jing/webpack-dev-server.md)
   * [Proxy](kai-fa-huan-jing/proxy.md)
+  * [module hot reloading](kai-fa-huan-jing/module-hot-reloading.md)
+  * [source map 调试](kai-fa-huan-jing/source-map-tiao-shi.md)
 
