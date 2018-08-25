@@ -1,7 +1,3 @@
----
-description: 自动生成html .场景优化
----
-
 # html in webpack
 
 ## 生成 html

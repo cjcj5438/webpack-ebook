@@ -1,7 +1,3 @@
----
-description: 代理远程接口请求
----
-
 # Proxy
 
 * http-proxy-middleware 在设置参数的时候,可以参照这个库开参照
