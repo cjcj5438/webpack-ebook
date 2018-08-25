@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [阅读须知](README.md)
 * [基础](ji-chu/README.md)
   * [打包 JS](ji-chu/da-bao-js.md)
   * [编译 ES6](ji-chu/bian-yi-es6.md)
