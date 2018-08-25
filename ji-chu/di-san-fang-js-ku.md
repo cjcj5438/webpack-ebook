@@ -51,6 +51,7 @@ modules:{
               {
                      test:path.resolv(__dirname,'src/app.js'),
                      use:[
+                    // 不建议这样使用, 如果要eslint的时候这样会不支持jq的代码规则
                             {
                                    loader:'import-loader',
                                    options:{

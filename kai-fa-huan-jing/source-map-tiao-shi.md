@@ -33,8 +33,7 @@ module.exports={
       new webpack.NameMoudlesPlugin()
    ],
    modules:{},
-   devServer:{
-      port:9001,
+   
       historyApiFallback:{
          rewrites:[
             {
