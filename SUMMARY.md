@@ -21,4 +21,5 @@
   * [source map 调试](kai-fa-huan-jing/source-map-tiao-shi.md)
   * [Eslint检查代码格式](kai-fa-huan-jing/eslint-jian-cha-dai-ma-ge-shi.md)
   * [开发环境和生产环境](kai-fa-huan-jing/kai-fa-huan-jing-he-sheng-chan-huan-jing.md)
+* [环境配置](huan-jing-pei-zhi.md)
 
