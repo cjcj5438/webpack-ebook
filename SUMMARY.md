@@ -23,4 +23,5 @@
     * [开发环境和生产环境](kai-fa-huan-jing/kai-fa-huan-jing-he-sheng-chan-huan-jing.md)
 * [环境配置](huan-jing-pei-zhi.md)
 * [实战场景](shi-zhan-chang-jing.md)
+* [other](other.md)
 

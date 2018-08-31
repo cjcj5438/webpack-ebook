@@ -2,7 +2,9 @@
 
 ![](.gitbook/assets/qq-liu-lan-qi-jie-tu-20180826224118.png)
 
+
 ```text
+// 这里可能时间久了.有些插件升级了所以基本上是提供配置思路
 //webpack.common.conf.js
 const productionConfig = require('./webpack.prod.conf');
 const developmentConfig = require('./webpack.dev.conf');
