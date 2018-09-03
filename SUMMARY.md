@@ -24,5 +24,6 @@
 * [环境配置](huan-jing-pei-zhi.md)
 * [实战场景](shizhan/shi-zhan-chang-jing.md)
     * [多页面](shizhan/duo-ye-main.md)
+    * [使用middleware搭建](shizhan/middleware.md)
 * [other](other.md)
 
