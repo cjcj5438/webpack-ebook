@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/cjcj5438/webpack-ebook/issues"
   },
-  "homepage": "https://github.com/cjcj5438/webpack-ebook#readme"
+  "homepage": "https://github.com/cjcj5438/webpack-ebook#readme",
+  "devDependencies": {
+    "gitbook": "^3.2.3"
+  }
 }
