@@ -25,5 +25,6 @@
 * [实战场景](shizhan/shi-zhan-chang-jing.md)
     * [多页面](shizhan/duo-ye-main.md)
     * [使用middleware搭建](shizhan/middleware.md)
+    * [打包结果分析](shizhan/da-bao-jie-guo-fen-xi.md)
 * [other](other.md)
 

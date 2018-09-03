@@ -12,6 +12,8 @@
 npm install express opn webpack-dev-middleware webpack-hot-middleware http-proxy-middleware connect-history-api-fallback --save-dev
 ```
 
+> 首先是基于上章节的配置来开发的
+
 ```javascript 1.8
 //server.js
 const express = require("express");
