@@ -6,7 +6,8 @@ description: 'gitbook编写,项目启动这里就不介绍了;'
 
 ## webpack配置\( 自阅 \)
 
-> 只有配置代码,没有案例代码, 读者可以借鉴,如果系统学习请转致官网;
+> 以配置代码为主,案例代码极少, 读者可以借鉴,如果系统学习请转致官网;
+
 
 1. 基础篇: 介绍js css img font html treeshaking 等常规配置
 2. 环境配置 : mhr source-map devserver 等
@@ -25,5 +26,5 @@ description: 'gitbook编写,项目启动这里就不介绍了;'
 {% endhint %}
 
 {% hint style="danger" %}
-现在是自阅版, 后面有时间,会慢慢补充注释和实例代码 . 欢迎纠错指正 大家伙一起学习 ~
+现在是自阅版,后面会一边学习一边完善.会慢慢补充注释和实例代码 . 欢迎纠错指正 大家伙一起学习 ~
 {% endhint %}
