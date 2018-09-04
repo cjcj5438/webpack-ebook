@@ -1,6 +1,6 @@
 # webpack-dev-server
 
-##  webpack-dev-server \(官方\) {#webpackdevserver-guan-fang}
+##  webpack-dev-server
 
 live reloading 会刷新浏览器
 
@@ -55,6 +55,6 @@ module.exports={
 "server":"webpacki-dev-server --open"
 ```
 
-express + webpack-dev-middleware  
+express + webpack-dev-middleware
 
 

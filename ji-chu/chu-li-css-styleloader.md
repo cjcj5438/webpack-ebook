@@ -27,7 +27,7 @@ module.exports={
         filename:'[name].bundle.js',//输出的文件
     },
    plugins:[],
-   modules:{ 
+   modules:{
        rules:[
            {
                test:/\.css$/,
@@ -42,7 +42,7 @@ module.exports={
 }
 ```
 
-### style-loader/url 
+### style-loader/url
 
 {% hint style="warning" %}
  要配合 file-loader 一起使用
@@ -109,9 +109,9 @@ module.exports=function(css){
 
 ### options
 
-1. [ ] alias 解析别名 
-2. [ ] importLoader\(@import\) 
-3. [ ] Minimize 是否压缩 
+1. [ ] alias 解析别名
+2. [ ] importLoader\(@import\)
+3. [ ] Minimize 是否压缩
 4. [ ] modules 启用css-mudules
    * [ ] :local 从本地
    * [ ] :global
@@ -164,7 +164,7 @@ npm i less less-loader sass-loader node-sass -D
 ```
 
 ```text
-modules:{ 
+modules:{
        rules:[
            {
                test:/\.less$/,
@@ -175,7 +175,7 @@ modules:{
                    {loader:'less-loader'}
                ]
            },
-           
+
        ]
    }
 ```
@@ -187,7 +187,7 @@ npm i extract-text-webpack-plugin webpack -D
 ```
 
 ```text
-modules:{ 
+modules:{
        rules:[
            {
                test:/\.less$/,
@@ -195,7 +195,7 @@ modules:{
                /*
                fallback当页面不提取的是用什么loader加载到页面中
                use 继续处理的loader
-               要配其他option 可以添加 
+               要配其他option 可以添加
                */
                    fallback:{loader:'style-loader'},
                    use:[
@@ -204,7 +204,7 @@ modules:{
                    ]
                })
            },
-           
+
        ]
    }
 plugins:[
@@ -223,14 +223,14 @@ plugins:[
 ```text
 npm i                 -D
         postcss
-        postcss-loader 
+        postcss-loader
         autoprefixer        帮助添加浏览器前缀
         postcss-cssnano     帮助css压缩,css-loader就是用这个的
         postcss-cssnext     使用css新语法,让浏览器识别
 ```
 
 ```text
-modules:{ 
+modules:{
        rules:[
            {
                test:/\.less$/,
@@ -246,7 +246,7 @@ modules:{
                                    //require('autoprefixer')()
                                    require('postcss-sprites')({
                                        spritePath:'dist/assets/imgs/sprites',
-                                       //处理苹果设备上的高清图 
+                                       //处理苹果设备上的高清图
                                        retina:true
                                    }),
                                    require('postcss-cssnext')()
@@ -257,7 +257,7 @@ modules:{
                    ]
                })
            },
-           
+
        ]
    },
 plugins:[
@@ -268,7 +268,7 @@ plugins:[
 ]
 ```
 
->
+
 
 ### 优化: Browerslist
 
