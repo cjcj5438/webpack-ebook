@@ -1,5 +1,5 @@
 # 处理 CSS - style-loader
-
+**webpack4.0的optimization优化 会后面章节单独来做笔记**
 ## style-loader
 
 {% hint style="success" %}

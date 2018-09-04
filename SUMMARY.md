@@ -2,7 +2,6 @@
 
 * [阅读须知](README.md)
 * [基础](ji-chu/README.md)
-    * [打包 JS](ji-chu/da-bao-js.md)
     * [编译 ES6](ji-chu/bian-yi-es6.md)
     * [编译 typescript](ji-chu/bian-yi-typescript.md)
     * [打包公共代码](ji-chu/da-bao-gong-gong-dai-ma.md)
