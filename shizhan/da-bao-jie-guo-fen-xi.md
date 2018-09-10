@@ -11,4 +11,4 @@
 	- webpack-bundle-analyzer stats.json
 
 
-这个插件使用很简单, 可以在vue项目中查看  直接应用就行
+这个插件使用很简单, 可以在vue项目中查看  直接应用
